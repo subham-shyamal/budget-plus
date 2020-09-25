@@ -1,0 +1,82 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Budget Plus | Make Your Plans with Us</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="navbar" class="navbar">
+        <h1 class="logo"><img src="./img/logo.png" alt=""></h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <h1 class="hero-text">Make Your Plans With Us</h1>
+      </div>
+    </header>
+
+    <section class="main-info">
+      <div class="against-date">
+        <h2>Available Balance in September 2020:</h2>
+        <!-- it will be auto with JS -->
+        <p class="value left">+ 4000.00₹</p>
+      </div>
+      <div class="boxes">
+        <div class="green-box">
+          <h3>Income</h3>
+          <p>+6000.00₹</p>
+        </div>
+        <div class="red-box">
+          <h3>Expenses</h3>
+          <p>-2000.00₹</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="addContent">
+   
+        <div class="addOptionBox">
+          <select class="addType">
+            <option value="inc" selected>+</option>
+            <option value="exp">-</option>
+          </select>
+        </div>
+        <div class="addDescription">
+          <input type="text" placeholder="Add Description" />
+        </div>
+        <div class="addValue">
+          <input type="text" placeholder="Value" />
+        </div>
+        <i class="far fa-check-circle circleTick fa-3x"></i>
+      </div>
+    </section>
+
+    <section class="ui">
+      <div class="income">
+        <h2 class="income-head">Income</h2>
+        <div class="incomeList">
+
+        </div>
+      </div>
+      <div class="expenses">
+        <h2 class="expenses-head">Expenses</h2>
+        <div class="expensesList">
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
